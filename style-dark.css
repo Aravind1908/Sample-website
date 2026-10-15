@@ -1,0 +1,43 @@
+@import url("style.css");
+
+:root {
+  color-scheme: dark;
+  --ink: #eeeae1;
+  --muted: #b2b0a7;
+  --paper: #171916;
+  --accent: #e28a69;
+  --line: #343630;
+}
+
+.main-nav a {
+  color: #b7b8af;
+}
+
+.hero-note p,
+.page-footer {
+  color: #a0a198;
+}
+
+.primary-link {
+  border-color: #aaa99f;
+}
+
+.primary-link:hover {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.note-mark {
+  color: #c0b9a7;
+}
+
+.page-footer a {
+  color: var(--ink);
+}
+
+@media (min-width: 1441px) {
+  .page-shell {
+    border-color: #292b26;
+  }
+}
